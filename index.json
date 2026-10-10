@@ -1,0 +1,23 @@
+{
+  "format": 1,
+  "profiles": {
+    "gsp350": {
+      "name": "Sennheiser GSP 350",
+      "file": "gsp350/gsp350_16ch.wav",
+      "sha256": "45cfbaab0629583843d6d2dc328152cc94d0368e514de71370521f8b7d684c25",
+      "rate": 48000,
+      "sample_format": "float32",
+      "channels": ["FL.L", "FL.R", "FR.L", "FR.R", "FC.L", "FC.R", "LFE.L", "LFE.R",
+                   "RL.L", "RL.R", "RR.L", "RR.R", "SL.L", "SL.R", "SR.L", "SR.R"],
+      "lfe_gain": {"off": 0.708, "game": 1.0, "music": 0.708, "esport": 0.708},
+      "usb_ids": ["1395:005d"],
+      "measured_from": {
+        "driver_package": "Conexant USB Audio 1.31.35.10 (2016-05-20)",
+        "driver_file": "usbaud64.sys 1.31.36.6",
+        "control_app": "Sennheiser SmartAudio3 2.1.4.0",
+        "dongle": "USB 1395:005D, bcdDevice 0x0007",
+        "os": "Windows 11 23H2"
+      }
+    }
+  }
+}
